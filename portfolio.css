@@ -1,0 +1,69 @@
+#navibar{
+    display:flex;
+    flex-direction:row;
+    background-color: rgb(10, 191, 247);
+    gap: 20px;
+    color:whitesmoke;
+}
+#kandiah{
+    color:rebeccapurple;
+    text-shadow:#064fff 0px 0px 8px,
+    
+    #064fff 0px 0px 24px;
+}
+
+body{
+    background-color: black;
+    
+}
+html{
+    scroll-behavior:smooth;
+    scroll-padding: 10rem;
+}
+img{
+     background-color:lightslategray ;
+     border-width: 2cm;
+     margin:5px;
+     transition:transform  1s ease-in-out;
+     height: 150px;
+     width:150px;
+}
+img:hover{
+transform:translate(2%);
+}
+#flexcontainerimgright{
+    display:flex;
+    flex-direction: row;
+    gap: 2px;
+    color:white;
+
+}
+#about{
+    display:flex;
+    flex-direction:row;
+}
+#skills-down{
+display:flex;
+flex-direction: row;
+color:white;
+}
+ul{
+    color:whitesmoke;
+}
+a{
+    color:white;
+}
+#contact{
+    color:white;
+}
+.fa-linkedin{
+    background:#000000;
+    
+}
+.fa-instagram{
+    background: #000000;
+}
+#window{
+    height:9in;
+    width:15in;
+}
